@@ -1,10 +1,18 @@
-   0 touch myfirstbashscript.sh
+//commands  
+
+ 0 touch myfirstbashscript.sh
    1 mv myfirstbashscript.sh /bin/misha
    2 export USER=Misha
    3 nano /bin/misha
    4 misha
-   5 chmod 744
-   6 chmod 744 /bin/misha
-   7 misha
-   8 history
-   9 history > scriptMisha.txt
+   5 chmod 744 /bin/misha
+   6 misha
+   7 history
+   8 history > scriptMisha.txt
+
+//script
+
+#!/bin/bash
+date
+echo "Hello $USER !"
+pwd
