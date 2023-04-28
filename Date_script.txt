@@ -4,3 +4,7 @@ for run in {1..10}
 do
 touch /opt/{1..10}_"$(date +%F)".txt
 done
+
+
+crontab -e 
+*/15 * * * * /opt/060323_e/misha/scriptDate.sh >> /tmp/output.txt
